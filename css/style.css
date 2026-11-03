@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 2px solid#e5e5e5;
+}
+.logo{
+    width: 150px;
+    height: auto;
+
+}
+nav a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 12px;
+}
+nav a:hover{
+    color: #ff6b00;
+    text-decoration: underline;
+
+}
+#home-hero{
+    height: 600px;
+    background-image: url(/asstets/images/herobanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 55px 80px;
+}
+#home-hero h1{
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 53px;
+    font-weight: 800;
+    line-height: 58px;
+    width: 650px;
+    margin-bottom: 20px;
+
+}
+#home-hero span{
+    color: orange;
+ 
+
+}
+#home-hero p{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    width: 420px;
+    margin-bottom: 35px;
+}
+.hero-buttons{
+    margin-top: 35px;
+}
+
+.hero-buttons a{
+    display: inline-block;
+    min-width: 180px;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.order-btn{
+    background-color: #f44336;
+    color: white;
+    margin-left: 15px;
+}
+.menu-btn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+
+}
+.order-btn:hover{
+    background-color: green;
+
+}
+.menu-btn:hover{
+    background-color: white;
+    color: #222;
+}
+
+#menu-hero{
+    background-image: url("/asstets/images/menu-hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 65px;
+    height: 320px;
+
+}
+
+#menu-hero h1{
+    font-size: 56px;
+    line-height: 60px;
+    font-family: "Great vibes",cursive;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+#menu-hero p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 600px;
+    line-height: 34px;
+    margin: 0 auto 35px;
+}
+
+#categories{
+    background-color: #ffffff;
+    padding: 50px 80px;
+    text-align: center;
+}
+#categories h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 50px;
+    position: relative;
+    display: inline-block;
+}
+#categories img{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+}
+#contact-hero{
+    background-image: url(/asstets/images/contact\ hero.png);
+    height: 400px;
+    background-size: cover;
+    padding: 60px 80px;
+    text-align: center;
+}
+
+#contact-hero h2{
+    font-size: 70px;
+    line-height: 60px;
+    font-family: "Great Vibes",cursive;
+    font-weight: 400;
+    color: rgb(233, 8, 8);
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0.5);
+    margin-bottom: 0 auto 35px;
+}
+
+#contact-hero h2 span{
+    color: #f44336;
+}
+
+#contact-hero hr{
+    width: 70px;
+    height: 4px;
+    background-color: #ff6b00;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-left: 400px;
+}
+
+#contact-hero p{
+    font-size: 20px;
+    color: rgb(18, 20, 18);
+    text-align: center;
+    -webkit-user-drag: 900px;
+    line-height: 34px;
+    margin: 0 auto;
+}
+
+#about-hero{
+    background-image: url(/asstets/images/about-hero.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: 100% 80%;
+    background-size: cover;
+    padding: 60px 80px;
+    text-align: left;
+}
+#about-hero h2{
+    color: white;
+    font-family: "Montserrat",sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#about-hero h2 span{
+    font-family: "Allura",cursive;
+    color: orange;
+    font-size: 62px;
+    font-weight: 400;
+}
+
+#about-hero p{
+    font-size: 20px;
+    color: orangered;
+    text-align: left;
+    width: 900px;
+    line-height: 34px;
+}
+#about-hero hr{
+    width: 45px;
+    height: 3px;
+    background-color: #ff6b00;
+    border: none;
+    border-radius: 20px;
+}
+
+#cart-hero{
+      background-image: url("/assets/images/menu-hero.png");
+      height: 400px;
+      background-repeat: no-repeat;
+      background-position: 100% 80%;
+      background-size: cover;
+      padding: 60px 80px;
+      text-align: left;
+}
+#cart-hero h2{
+    color: #ffffff;
+    font-family: "Lobster", cursive;
+    font-size: 58px;
+    font-weight: 400;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+	
+.divider{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.divider hr{
+    display: inline-block;
+    width: 120px;
+    height: 3px;
+    background-color: #ff6b00;
+    border: none;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+.divider img{
+    width: 34px;
+    height: 34px;
+    margin: 0 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#cart-hero p{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+    width: 720px;
+    margin: 0 auto;
+}
+
+#cart-hero{
+    background-image: url(/asstets/images/menu-hero.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: cover;
+    padding: 60px 80px;
+    text-align: center;
+}
+
+#cart-hero h1{
+    font-size: 56px;
+    line-height: 60px;
+    font-family: "Great vibes",cursive;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+#cart-hero p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 600px;
+    line-height: 34px;
+    margin: 0 auto 35px;
+}
+
+
